@@ -834,6 +834,7 @@ import { AuthorSelect } from './query-controls.jsx';
             );
 
             const hasPosts = Array.isArray( recentPosts ) && recentPosts.length;
+            console.log(hasPosts);
 
             // If no posts found we show this notice
             if (!hasPosts) {

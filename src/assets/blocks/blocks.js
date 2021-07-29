@@ -24141,6 +24141,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
                 );
 
                 var hasPosts = Array.isArray(recentPosts) && recentPosts.length;
+                console.log(hasPosts);
 
                 // If no posts found we show this notice
                 if (!hasPosts) {
